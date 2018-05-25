@@ -58,3 +58,17 @@ jQuery('#listing_twitter_url').focus(function(){
 jQuery('#listing_password_url').focus(function(){
     jQuery(this).attr('pattern','(?=^.{4,15}$)((?!.*\s)(?=.*[A-Z])(?=.*[a-z])(?=(.*\d){1,}))(?=.*[~!@#$%^&*()_+[}{;"?/])^.*$');
 });
+
+
+/***
+ * ON SCROLL JQUERY
+ ***/
+
+jQuery(document).scroll(function(){
+        if(jQuery(document).scrollTop() > 50){
+            // CODE
+            
+        }else{
+            // CODE
+        }
+  });
