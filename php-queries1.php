@@ -18,5 +18,8 @@
     
     
 /**
-***
+***Trim text by characters & words***
 **/
+
+wp_trim_words( get_the_title(), 10, '...'); //Trim by Words
+mb_strimwidth( get_the_title(), 0, 50, '...' ); //Trim by Characters
