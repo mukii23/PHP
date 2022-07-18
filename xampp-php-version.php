@@ -1,4 +1,4 @@
-You can downgrade the PHP XAMPP version by using this:
+You can downgrade the PHP XAMPP version by using this code:
 
 
 Download and extract the file xampp-win32-5.6.36-0-VC11.zip(eg. portable xampp version)
